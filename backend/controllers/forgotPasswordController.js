@@ -9,7 +9,7 @@ dotenv.config()
 const forgotPassword = async (req, res) => {
     const { email } = req.body;
     
-    // Check if email exists in the database
+    // Check if the email exists in the database
     const user = await userModel.findOne({ email });
     if (!user) {
       return res.status(404).json({ message: 'User not found' });
