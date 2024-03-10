@@ -1,8 +1,9 @@
 # Installation
-Run the following command to clone the repository
 ```
-git clone https://github.com/alokyadav1/mern-todo-app.git
+clone this repo and do the following steps 
 ```
+
+
 Go to ```frontend``` and ```backend``` directory to install packages
 ```
 cd frontend
@@ -32,7 +33,6 @@ nodemon server
 cd frontend
 npm start
 ```
-# Live Preview
-Check live preview here [https://todo-app-b96a5.web.app/](https://todo-app-b96a5.web.app/)
+
 
 
